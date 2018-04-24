@@ -23,5 +23,10 @@ class Driver
     /**
      * The driver of mysql
      */
-    const MYSQL = 'mysql';
+    const MYSQL = "mysql";
+
+    /**
+     * The driver of postgresql
+     */
+    const PGSQL = "postgresql";
 }

@@ -172,63 +172,63 @@ class QueryBuilder implements QueryBuilderInterface
      *
      * @var bool
      */
-    private $delete = false;
+    protected $delete = false;
 
     /**
      * select语句
      *
      * @var array
      */
-    private $select = [];
+    protected $select = [];
 
     /**
      * set语句
      *
      * @var array
      */
-    private $set = [];
+    protected $set = [];
 
     /**
      * from语句
      *
      * @var array
      */
-    private $from = [];
+    protected $from = [];
 
     /**
      * join语句
      *
      * @var array
      */
-    private $join = [];
+    protected $join = [];
 
     /**
      * where语句
      *
      * @var array
      */
-    private $where = [];
+    protected $where = [];
 
     /**
      * group by语句
      *
      * @var array
      */
-    private $groupBy = [];
+    protected $groupBy = [];
 
     /**
      * having语句
      *
      * @var array
      */
-    private $having = [];
+    protected $having = [];
 
     /**
      * order by 语句
      *
      * @var array
      */
-    private $orderBy = [];
+    protected $orderBy = [];
 
     /**
      * limit 语句
