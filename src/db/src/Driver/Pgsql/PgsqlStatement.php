@@ -9,6 +9,7 @@
  */
 namespace Swoft\Db\Driver\Pgsql;
 
+use Swoft\Db\Driver\Driver;
 use Swoft\Db\Bean\Annotation\Statement;
 
 /**
