@@ -11,7 +11,7 @@ namespace SwoftTest\Db\Cases\Pgsql;
 
 use Swoft\Db\Query;
 use Swoft\Db\QueryBuilder;
-use SwoftTest\Db\Cases\AbstractMysqlCase;
+use SwoftTest\Db\Cases\AbstractPgsqlCase;
 use SwoftTest\Db\Testing\Entity\Count;
 use SwoftTest\Db\Testing\Entity\User;
 

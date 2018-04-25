@@ -5,7 +5,7 @@ namespace SwoftTest\Db\Cases\Pgsql;
 use Swoft\Db\Exception\MysqlException;
 use Swoft\Db\Qb;
 use Swoft\Db\Query;
-use SwoftTest\Db\Cases\AbstractMysqlCase;
+use SwoftTest\Db\Cases\AbstractPgsqlCase;
 use SwoftTest\Db\Testing\Entity\User;
 
 /**

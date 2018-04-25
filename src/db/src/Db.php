@@ -84,7 +84,6 @@ class Db
         $sqlId = uniqid();
         $profileKey = sprintf('%s.%s', $driver, $sqlId);
         Log::debug(sprintf('Execute sqlId=%s , sql=%s', $sqlId, $sql));
-
         Log::profileStart($profileKey);
         $connection->prepare($sql);
         $params = self::transferParams($params);
@@ -94,6 +93,8 @@ class Db
         $dbResult->setType($type);
         $dbResult->setClassName($className);
         $dbResult->setDecorators($resultDecorators);
+
+
 
         return $dbResult;
     }

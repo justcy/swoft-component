@@ -11,7 +11,7 @@ namespace SwoftTest\Db\Cases\Pgsql;
 
 use Swoft\Db\Db;
 use SwoftTest\Db\Testing\Entity\User;
-use SwoftTest\Db\Cases\AbstractMysqlCase;
+use SwoftTest\Db\Cases\AbstractPgsqlCase;
 
 /**
  * SqlMysqlTest

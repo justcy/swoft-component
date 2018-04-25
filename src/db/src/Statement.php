@@ -335,7 +335,7 @@ class Statement implements StatementInterface
     /**
      * join条件
      *
-     * @param int    $joinIndex
+     * @param int $joinIndex
      * @param string $table
      * @param string $statement
      * @param  array $criteria
@@ -365,7 +365,7 @@ class Statement implements StatementInterface
     /**
      * 前一个join条件
      *
-     * @param int    $joinIndex
+     * @param int $joinIndex
      * @param string $table
      * @param string $column
      *
@@ -458,7 +458,7 @@ class Statement implements StatementInterface
             // 没有括号
             $useConnector = true;
             $value        = $this->getCriteriaWithoutBracket($criterion['operator'], $criterion['value'], $criterion['column']);
-            $statement    .= '`' . $criterion['column'] . '` ' . $criterion['operator'] . ' ' . $value;
+            $statement    .= $criterion['column'] . $criterion['operator'] . ' ' . $value;
         }
 
         return $statement;

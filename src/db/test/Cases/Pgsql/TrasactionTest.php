@@ -10,7 +10,7 @@
 namespace SwoftTest\Db\Cases\Pgsql;
 
 use Swoft\Db\Db;
-use SwoftTest\Db\Cases\AbstractMysqlCase;
+use SwoftTest\Db\Cases\AbstractPgsqlCase;
 use SwoftTest\Db\Testing\Entity\User;
 
 class TrasactionTest extends AbstractPgsqlCase

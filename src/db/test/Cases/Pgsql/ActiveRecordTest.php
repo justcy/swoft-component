@@ -12,7 +12,7 @@ namespace SwoftTest\Db\Cases\Pgsql;
 
 use Swoft\Db\Query;
 use Swoft\Db\QueryBuilder;
-use SwoftTest\Db\Cases\AbstractMysqlCase;
+use SwoftTest\Db\Cases\AbstractPGsqlCase;
 use SwoftTest\Db\Testing\Entity\User;
 
 /**
@@ -77,7 +77,9 @@ class ActiveRecordTest extends AbstractPgsqlCase
     {
         /* @var User $user */
         $user   = User::findById($id)->getResult();
+        echo "ss";
         $result = $user->delete()->getResult();
+        echo "aaa";
         $this->assertEquals(1, $result);
     }
 
